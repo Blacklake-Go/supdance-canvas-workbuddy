@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "supdance-canvas": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=https://github.com/Blacklake-Go/supdance-canvas-agent/releases/download/v0.1.5/supdance-canvas-agent-workbuddy-0.1.5.tgz",
+        "supdance-canvas-agent-workbuddy",
+        "mcp"
+      ],
+      "runtime": {
+        "type": "node",
+        "version": "20"
+      },
+      "npmRegistry": "https://registry.npmjs.org",
+      "timeout": 30000,
+      "disabledTools": [
+        "canvas_create_attachment_nodes",
+        "canvas_generate_video",
+        "canvas_generate_audio",
+        "workbench_video_get_config",
+        "workbench_video_generate"
+      ]
+    }
+  }
+}

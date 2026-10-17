@@ -1,0 +1,22 @@
+{
+  "name": "SupDance Canvas",
+  "name_zh": "SupDance 画布",
+  "name_en": "SupDance Canvas",
+  "description": "Connect WorkBuddy to your signed-in SupDance canvas to read and organize nodes and prepare image prompt flows.",
+  "description_zh": "连接已登录的 SupDance 画布，读取和整理节点与选区，并配置图片提示词流程。",
+  "description_en": "Connect your signed-in SupDance canvas to read and organize nodes, selections, and image prompt flows.",
+  "source": "supdance-canvas-workbuddy",
+  "type": "mcp",
+  "version": "0.1.3",
+  "minWorkbuddyVersion": "5.0.0",
+  "examples_zh": [
+    "打开我最近的 SupDance 画布并概括当前节点",
+    "分析当前画布中选中的提示词和图片",
+    "在当前画布配置一个图片提示词流程，先不要生成"
+  ],
+  "examples_en": [
+    "Open my recent SupDance canvas and summarize its nodes",
+    "Analyze the selected prompts and images on my current canvas",
+    "Prepare an image prompt flow on my canvas without generating yet"
+  ]
+}

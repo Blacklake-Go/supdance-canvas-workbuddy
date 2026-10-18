@@ -5,7 +5,7 @@ display_name_en: SupDance Canvas
 description: 在 WorkBuddy 中连接、读取和操作已登录的 SupDance 当前画布。
 description_zh: 读取 SupDance 画布与选区，分析内容，整理节点并配置图片提示词流程。
 description_en: Connect to a signed-in SupDance canvas to read, analyze, organize nodes, and prepare image prompt flows.
-version: 0.1.3
+version: 0.1.5
 author: SupDance
 ---
 

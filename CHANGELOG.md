@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.5
+
+- Uses the WorkBuddy Agent 0.1.7 release, whose package entry point disables Codex conversation restoration by default.
+- Continues to pin a single stdio MCP server and disables the five unsupported attachment/video/audio tools.
+
+## 0.1.4
+
+- Uses the WorkBuddy Agent 0.1.6 release and requests Codex conversation restoration be disabled in the WorkBuddy-launched Agent.
+- Keeps market descriptions within the currently verified canvas inspection scope.
+
 ## 0.1.0
 
 - Initial WorkBuddy connector package using one local stdio MCP Server and a

@@ -5,7 +5,7 @@ WorkBuddy connector for the signed-in [SupDance Canvas](https://canvas.supdance.
 ## Package
 
 - `connector-meta.json`: WorkBuddy marketplace metadata, bilingual examples, and minimum client version.
-- `mcp.json`: starts the compact WorkBuddy Agent `0.1.5` GitHub release tarball with a WorkBuddy-managed Node.js runtime.
+- `mcp.json`: starts the compact WorkBuddy Agent `0.1.7` GitHub release tarball with a WorkBuddy-managed Node.js runtime. Its package entry point disables restoration of Codex-only conversations.
 - `icon.png`: SupDance artwork supplied by the publisher.
 - `skills/supdance-canvas/SKILL.md`: connection, analysis, modification, and paid-generation guidance.
 
@@ -28,8 +28,8 @@ See [Privacy](PRIVACY.md), the [SupDance privacy policy](https://www.supdance.co
 
 ## Release gates
 
-- Agent v0.1.5 source and fixed WorkBuddy tarball are published at the linked public GitHub release; clean-cache npx installation and MCP initialization/tools/list succeeded with 36 server tools.
-- Install the package in the WorkBuddy desktop app and verify the app filters the five disabled tools, invokes canvas_open, reports hasCanvas=true, and reads the current live canvas.
+- Agent v0.1.7 source and fixed WorkBuddy tarball are published at the linked public GitHub release; clean-cache npx installation and MCP initialization/tools/list succeeded with 36 server tools. The package entry point disables Codex conversation restoration without relying on client environment-variable propagation.
+- Install connector version 0.1.5 in the WorkBuddy desktop app and verify it filters the five disabled tools, invokes canvas_open, reports hasCanvas=true, and reads the current live canvas.
 - Verify analysis, node editing, reconnection, and one explicitly authorized image-generation task against real website records.
 - Confirm the connector source ID is available, review the market metadata and package contents, then submit the zip to the WorkBuddy team for review.
 - Report “submitted for review” until the public marketplace entry is searchable and installable.

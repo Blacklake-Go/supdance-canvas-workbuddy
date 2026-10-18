@@ -5,13 +5,17 @@
       "command": "npx",
       "args": [
         "-y",
-        "--package=https://github.com/Blacklake-Go/supdance-canvas-agent/releases/download/v0.1.5/supdance-canvas-agent-workbuddy-0.1.5.tgz",
+        "--package=https://github.com/Blacklake-Go/supdance-canvas-agent/releases/download/v0.1.7/supdance-canvas-agent-workbuddy-0.1.7.tgz",
         "supdance-canvas-agent-workbuddy",
         "mcp"
       ],
       "runtime": {
         "type": "node",
         "version": "20"
+      },
+      "staticEnv": {
+        "NO_PROXY": "localhost,127.0.0.1,::1",
+        "no_proxy": "localhost,127.0.0.1,::1"
       },
       "npmRegistry": "https://registry.npmjs.org",
       "timeout": 30000,
